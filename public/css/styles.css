@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+/* Sass Template */
+/* Global Classes */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Typography Classes */
+.font-roboto {
+  font-family: "Roboto", cursive;
+}
+
+.font-roboto-light {
+  font-family: "Roboto", cursive;
+  font-weight: lighter;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-32 {
+  font-size: 32px;
+}
+
+.font-size-36 {
+  font-size: 36px;
+}
+
+/* Color Template */
+.color-primary {
+  color: #146c94;
+}
+
+.color-secondary {
+  color: #19a7ce;
+}
+
+.color-background {
+  background: #f6f1f1;
+}
+
+.color-text {
+  color: #000000;
+}
+
+/* Margin Classes */
+.margin-bottom-30 {
+  margin-bottom: 30rem;
+}
+
+/* CSS Custom Styles */
+/* Carousel */
+.carousel-inner {
+  position: relative;
+  display: block;
+}
+
+.home-carousel-logo {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.home-carousel-slogan {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=styles.css.map */
